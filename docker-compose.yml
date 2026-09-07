@@ -1,0 +1,16 @@
+services:
+  api:
+    build: ./backend
+    environment:
+      SEGMENTATION_PROVIDER: ${SEGMENTATION_PROVIDER:-demo}
+      DEMO_MASKS_ENABLED: ${DEMO_MASKS_ENABLED:-true}
+      SAM3_API_URL: ${SAM3_API_URL:-}
+      SAM3_API_KEY: ${SAM3_API_KEY:-}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+    ports:
+      - "8000:8000"
+  web:
+    build: ./frontend
+    depends_on: [api]
+    ports:
+      - "5173:80"
