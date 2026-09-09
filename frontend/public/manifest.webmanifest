@@ -1,1 +1,16 @@
-{"name":"Marketplace Vision AI","short_name":"Vision AI","start_url":"/","display":"standalone","background_color":"#f7f6f2","theme_color":"#162320","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
+{
+  "name": "Marketplace Vision AI",
+  "short_name": "Vision AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#162320",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
