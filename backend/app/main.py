@@ -25,8 +25,9 @@ async def products():
 
 @app.post("/api/products/{product_id}/try-on")
 async def try_on(product_id):
+    print("DEBUG 1", product_id)
     product = get_product(product_id)
-    
+    print("DEBUG 2", product.to_dict())
     if not product:
         raise HTTPException(404, "Producto no encontrado")
     

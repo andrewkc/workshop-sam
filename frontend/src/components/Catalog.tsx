@@ -9,7 +9,7 @@ export default function Catalog({
   return (
     <main>
       <header>
-        <span className="eyebrow">SDC · PUCP</span>
+        <span className="eyebrow">MARKETPLACE</span>
         <h1>
           Casa <i>cerca</i>
         </h1>
