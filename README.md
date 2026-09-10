@@ -2,9 +2,13 @@
 
 ## 1. Resumen
 
-Este proyecto implementa un servicio de **segmentación de imágenes con SAM 3**, integrado en una **API REST con FastAPI**. El sistema recibe una imagen, identifica los objetos presentes y devuelve sus máscaras de segmentación junto con sus niveles de confianza, utilizando **PNG codificado en Base64** para su transmisión. El proyecto sirve como una introducción práctica a **Computer Vision y AI Engineering**, mostrando cómo integrar un modelo de IA con un backend y exponer sus resultados mediante una API.
+Este proyecto implementa una web app orientada a dispositivos móviles que permite visualizar productos en el entorno real mediante la cámara del celular. El sistema integra un servicio de segmentación de imágenes con SAM 3, expuesto mediante una API REST desarrollada con FastAPI. La aplicación recibe imágenes de productos, identifica y segmenta los objetos presentes, y utiliza sus máscaras para aislarlos y visualizarlos de forma interactiva sobre la cámara del dispositivo. Los resultados de segmentación se transmiten mediante PNG codificado en Base64. El proyecto sirve como una introducción práctica a Computer Vision y AI Engineering, mostrando cómo integrar un modelo de IA con un backend y una aplicación web móvil para desarrollar una experiencia interactiva basada en visión por computadora.
 
-<!-- Poner 3 imágenes juntas (menu productos, menu producto, camera and 3d mesh)-->
+<p align="center">
+  <img src="images/img1.jpg" width="30%" style="margin: 0 5px; border-radius: 12px;" />
+  <img src="images/img2.jpg" width="30%" style="margin: 0 5px; border-radius: 12px;" />
+  <img src="images/img3.jpg" width="30%" style="margin: 0 5px; border-radius: 12px;" />
+</p>
 
 ## 2. Instrucciones para probarlo localmente
 
